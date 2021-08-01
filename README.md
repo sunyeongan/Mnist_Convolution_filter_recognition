@@ -16,5 +16,7 @@ Tesorflow mnist dataset으로 학습시킨 후 필터를 적용한 손글씨 사
 2. 그림판에서 그린 숫자 손글씨의 원본, 필터가 적용된 png파일을 불러온다.
 3. 불러온 이미지의 사이즈를 테스트에 적합하게 수정한다.
 4. 변경된 이미지를 사용하여 예측값을 출력한다.
- 
+-----------
+<img width="787" alt="스크린샷 2021-08-01 오후 11 49 31" src="https://user-images.githubusercontent.com/44018024/127775290-fdcbf4a1-9dfb-4fed-b8cd-fe557819c817.png">
+
 
