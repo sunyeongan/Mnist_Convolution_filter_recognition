@@ -17,6 +17,15 @@ Tesorflow mnist dataset으로 학습시킨 후 필터를 적용한 손글씨 사
 3. 불러온 이미지의 사이즈를 테스트에 적합하게 수정한다.
 4. 변경된 이미지를 사용하여 예측값을 출력한다.
 -----------
+## 손글씨를 test 하는 프로그램 : mnist_start2.ipynb실행
+1. 데이터셋 생성
+2. 모델 구성하기
+3. 모델 학습과정 설정하기 
+4. 모델 학습
+5. 모델 평가
+6. 원본이미지, 필터를 적용한 이미지들을 불러온다
+7. Mnist dataset은 배경이 검정이고 글씨부분은 흰색이다. Cv2.threshold(src,190,255,cv2.THRESH_BINARAY_INV) 픽셀값이 190 이상이면
+검은색, 이하이면 흰색으로 이진화한다.(그림판에서 그린 이미지는 배경이 흰색 글씨가 검은색으로 학습을 하려면 반대로 바꾸어 주어야 한다.)
 <img width="787" alt="스크린샷 2021-08-01 오후 11 49 31" src="https://user-images.githubusercontent.com/44018024/127775290-fdcbf4a1-9dfb-4fed-b8cd-fe557819c817.png">
 <img width="785" alt="스크린샷 2021-08-01 오후 11 49 37" src="https://user-images.githubusercontent.com/44018024/127775330-2c873204-c3e9-4fb8-9293-c4716c047dd0.png">
 
